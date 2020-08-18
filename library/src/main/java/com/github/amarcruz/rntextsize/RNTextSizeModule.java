@@ -48,7 +48,7 @@ public class RNTextSizeModule extends ReactContextBaseJavaModule {
 
     private final ReactApplicationContext mReactContext;
 
-    RNTextSizeModule(ReactApplicationContext reactContext) {
+    public RNTextSizeModule(ReactApplicationContext reactContext) {
         super(reactContext);
         mReactContext = reactContext;
     }
